@@ -2,6 +2,24 @@
 
 [![Crates.io](https://img.shields.io/crates/v/bind-hal.svg)](https://crates.io/crates/bind-hal)
 
+
+
+
+
+# This crate has been separated and moved to [py32-bind-hal](https://crates.io/crates/py32-bind-hal)
+
+
+# This crate is no longer updated, please see [py32-bind-hal](https://crates.io/crates/py32-bind-hal)
+
+
+
+
+
+------------------------------
+
+------------------------------
+
+
 This project aims to provide a more complete HAL (Hardware Abstraction Layer).
 
 The project uses the vendor-provided C SDK and operates peripherals through bindings, then wraps these C APIs for easy use in Rust.
@@ -65,5 +83,3 @@ In the near future, this crate will primarily update SDKs for microcontrollers s
 ## py32csdk-hal-sys
 
 The CSDK and bindings for py32 are maintained here: [py32csdk-hal-sys](https://github.com/decaday/py32csdk-hal-sys), and this package already includes precompiled static library file and `bindings.rs` for quick use. However, if you want to recompile and generate bindings, it will be troublesome, please check its Docs. You need to enable the `recompile` feature.
-
-## 
